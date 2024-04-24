@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container-form">
+    <div class="information">
+        <div class="info-childs">
+            <h2>Bienvenido a nuestro UrBanck</h2>
+            <p>Nos alegra tenerte por aca. Te invitamos a registrarte a nuestro banco y crear una cuenta.</p>
+           
+            <a href="inicio_de_sesion.html">
+             <input type="button" value="Iniciar sesión" >
+           </a>
+            
+        </div>
+    </div>
+    <div class="form-information">
+        <div class="form-information-childs">
+            <h2>Crea una cuenta en nuestro banco</h2>
+            
+            <p>Usa tu email para registrarte</p>
+            <form class="form" >
+                <label>
+                    <i class='bx bx-user'></i>
+                    <input type="text" placeholder="Nombre completo" id="nombre" required>
+                </label>
+                <label>
+                    <i class='bx bx-envelope'></i>
+                    <input type="email" placeholder="Correo electronico" id="correo" required>
+                </label>
+                <label>
+                    <i class='bx bx-face'></i>
+                    <input type="number" placeholder="Ingrea tu cedula" id="cedula" required>
+                </label>
+                <label>
+                    <i class='bx bx-home'></i>
+                    <input type="text" placeholder="Crea un usuario" id="usuario" required>
+                </label>
+                <label >
+                    <i class='bx bx-calendar' ></i>
+                    <input type="date" placeholder="Fecha de nacimiento" id="nacimiento" required>
+                </label>
+                <label>
+                    <i class='bx bx-lock-alt' ></i>
+                    <input type="password" placeholder="Crea una contraseña" id="contraseña">
+                </label>
+                <input type="submit" value="Registrarte">
+
+            </form>
+        </div>
+    </div>
+   </div>
+
+    
+</body>
+</html>
